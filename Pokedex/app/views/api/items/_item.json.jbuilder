@@ -1,3 +1,4 @@
+json.key_format! camelize: :lower
 json.set! item.id do
     json.extract! item, :id, :name, :price, :happiness, :image_url
 end
